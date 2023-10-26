@@ -34,3 +34,13 @@ C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\obj\Debug\net7.0\r
 C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\obj\Debug\net7.0\WebApplication1.pdb
 C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\obj\Debug\net7.0\WebApplication1.genruntimeconfig.cache
 C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\obj\Debug\net7.0\ref\WebApplication1.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\Humanizer.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\Npgsql.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\vkont\source\repos\ablysova-Kt-42-20\WebApplication1\bin\Debug\net7.0\System.CodeDom.dll
