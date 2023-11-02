@@ -3,7 +3,7 @@ using NLog;
 using NLog.Web;
 using WebApplication1.Database;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Diagnostics;
 var builder = WebApplication.CreateBuilder(args);
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 try
@@ -17,16 +17,18 @@ try
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
 
-    builder.Services.AddDbContext<StudentDbContext>(options=>
-              options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    builder.Services.AddDbContext<StudentDbContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+   // builder.Services.AddServices();
 
-   var app = builder.Build();
+    var app = builder.Build();
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
     {
         app.UseSwagger();
         app.UseSwaggerUI();
     }
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
     app.UseAuthorization();
     app.MapControllers();
     app.Run();
