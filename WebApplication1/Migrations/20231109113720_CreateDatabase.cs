@@ -32,7 +32,7 @@ namespace WebApplication1.Migrations
                     c_student_firstname = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false, comment: "Имя студента"),
                     c_student_middlename = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false, comment: "Отчество студента"),
                     MiddleName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    f_student_groupid = table.Column<int>(type: "int4", nullable: false, comment: "Идентификатор группы")
+                    f_student_groupid = table.Column<int>(type: "int", nullable: false, comment: "Идентификатор группы")
                 },
                 constraints: table =>
                 {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XFMjqaiK0YQhNJ6xXChIB2xec0+dkYKioDMqPQToKw1ad6X4i7KGSgWPJ0Gp9Pgf23iLmMuNjLSZyn4d79Au9w==",
+  "dgSpecHash": "wQ6MsnURLCmST1+YI6Fvww9Q5HyyQw8ogSklN43+HokSqJMCqS+y7m3etMPP6uoXlc9ElNhuQf0dvtoZR3OwJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vkont\\source\\repos\\ablysova-Kt-42-20\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\vkont\\source\\repos\\Новая папка\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vkont\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\vkont\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

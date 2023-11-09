@@ -11,7 +11,7 @@ using WebApplication1.Database;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20231031064750_CreateDatabase")]
+    [Migration("20231109113720_CreateDatabase")]
     partial class CreateDatabase
     {
         /// <inheritdoc />

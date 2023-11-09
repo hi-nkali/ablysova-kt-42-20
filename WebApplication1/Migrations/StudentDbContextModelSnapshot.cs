@@ -56,7 +56,7 @@ namespace WebApplication1.Migrations
                         .HasComment("Имя студента");
 
                     b.Property<int>("GroupId")
-                        .HasColumnType("int4")
+                        .HasColumnType("int")
                         .HasColumnName("f_student_groupid")
                         .HasComment("Идентификатор группы");
 
